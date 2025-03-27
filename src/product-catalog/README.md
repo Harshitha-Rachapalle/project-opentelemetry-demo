@@ -8,8 +8,11 @@ When this service is run the output should be similar to the following
 output:
 
  Loading Product Catalog...
+ 
  Loaded 10 products
+ 
  Product Catalog reload interval: 10
+ 
  Product Catalog gRPC server started on port: 8088
 
 for json format:
