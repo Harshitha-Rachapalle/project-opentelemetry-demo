@@ -25,6 +25,8 @@ def protocVersion = "4.30.0"
 tasks.withType(JavaCompile).configureEach {
     sourceCompatibility = JavaVersion.VERSION_21
     targetCompatibility = JavaVersion.VERSION_21
+    options.compilerArgs << "-Xlint:deprecation"
+
 }
 
 ext {
